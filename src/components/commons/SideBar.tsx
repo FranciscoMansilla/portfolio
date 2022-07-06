@@ -2,7 +2,7 @@
 
 const SideBar = ()=>{
   return(
-    <div className=' fixed z-50 flex flex-col w-60 h-full bg-red-400'>
+    <div className=' fixed -right-60 z-50 flex flex-col w-60 h-full bg-red-400'>
       <div className=" h-20 border-b-2 border-black">
         title
       </div>
