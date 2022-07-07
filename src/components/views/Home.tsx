@@ -7,8 +7,9 @@ import About from './../commons/About';
 
 
 const Home = ()=>{
+  
   return(
-    <div className='grid grid-cols-1 grid-rows-layout-mobile md:grid-rows-layout bg-theme-2 '>
+    <div className='grid grid-cols-1 grid-rows-layout-mobile md:grid-rows-layout bg-theme-2  '>
       <div>
         <Nav/>
       </div>
@@ -16,7 +17,7 @@ const Home = ()=>{
       <Projects/>
       <Contact/>
       <Footer/>
-      <SideBar/>
+      <SideBar />
     </div>
   )
 }

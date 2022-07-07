@@ -91,13 +91,13 @@ const Carrousel2 = () => {
   // Finally the image itself will be 100% of a parent div. Outer div is
   // set with position relative, so we can place our cotrol buttons using
   // absolute positioning on each side of the image.
-    <div className="m-0 flex justify-center my-2 w-full md:w-2/3 items-center">
+    <div className="m-0 flex justify-center my-2 w-full xl:w-3/4 items-center">
       <div className="relative w-full">
-        <div className={style.carousel}>
+        <div className={style.carousel }>
           {sliderControl(true)}
           {images.map((project, i) => (
-            <div className="w-full flex-shrink-0 relative" key={project.img} ref={refs[i]}>
-              <img src={project.img} className="w-full object-contain  " />
+            <div className="w-full  h-96 md:h-auto flex-shrink-0 relative" key={project.img} ref={refs[i]}>
+              <img src={project.img} className=" w-full object-contain " />
               <div className="
                 ease-in-out duration-200 bg-white bg-opacity-80 h-full w-full flex absolute opacity-0 top-0 left-0 
                 hover:opacity-100 flex-col justify-center items-center  ">

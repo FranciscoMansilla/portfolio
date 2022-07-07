@@ -16,6 +16,8 @@ module.exports = {
       backgroundImage: {
         'theme-1': "url('/src/assets/bgFran.png')",
         'theme-2': "url('/src/assets/bg1.jpg')",
+        'theme-3': "url('/src/assets/bg1Dark.png')",
+
       },
       fontFamily: {
         'F-Medium': ['F-Medium'],
@@ -25,7 +27,10 @@ module.exports = {
         'F-LightItalic': ['F-LightItalic'],
         'F-Light' : ['F-Light'],
         'F-Logo' : ['FredokaOne-Regular']
-      }
+      },
+      screens:{
+        'iphone': '500px'
+      },
     },
   },
   plugins: [],

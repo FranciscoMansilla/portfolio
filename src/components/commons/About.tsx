@@ -32,10 +32,14 @@ const About = ()=>{
       </div>
       <div>
         <div className=' flex flex-col items-center md:justify-center md:flex-row '>
-          <button onClick={(e:any)=>setTech(e.target.value)} value='front' className=" text-white font-F-Medium shadow-lg w-8/12 md:w-2/12 bg-gradient-to-r to-sky-400 from-pink-300 hover:bg-gradient-to-l hover:to-rose-300 hover:from-pink-400 m-2 py-2 px-4 rounded">
+          <button onClick={(e:any)=>setTech(e.target.value)} value='front' 
+            className=" text-white font-F-Medium shadow-lg w-8/12 md:w-2/12 bg-gradient-to-r to-sky-400 from-pink-300 hover:bg-gradient-to-l hover:to-rose-300 hover:from-pink-400 m-2 py-2 px-4 rounded
+            hover:scale-105 ease-in-out duration-200 ">
             Front
           </button>
-          <button onClick={(e:any)=>setTech(e.target.value)} value='back' className=" text-white font-F-Medium shadow-lg w-8/12 md:w-2/12 bg-gradient-to-r to-sky-400 from-pink-300 hover:bg-gradient-to-l hover:to-rose-300 hover:from-pink-400 m-2 py-2 px-4 rounded">
+          <button onClick={(e:any)=>setTech(e.target.value)} value='back' 
+            className=" text-white font-F-Medium shadow-lg w-8/12 md:w-2/12 bg-gradient-to-r to-sky-400 from-pink-300 hover:bg-gradient-to-l hover:to-rose-300 hover:from-pink-400 m-2 py-2 px-4 rounded
+            hover:scale-105 ease-in-out duration-200 ">
             Back
           </button>
         </div>
