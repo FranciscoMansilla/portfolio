@@ -9,8 +9,8 @@ import wheather_icon from '../../assets/captions/icons/weatherIcon.png'
 
 
 const images = [
-  {img:SW, icon:SW_icon,git:'' , page:'https://soundwave-swart.vercel.app/', name:'SoundWave - streaming music', description:''},
-  {img:pokeapp, icon:poke_icon,git:'https://github.com/FranciscoMansilla/projectPokeApi.git' , page:'https://project-poke-api-nu.vercel.app/', name:'PokeApp', description:''},
+  {img:SW, icon:SW_icon,git:'' , page:'https://soundwave-swart.vercel.app/', name:'SoundWave - music streaming', description:''},
+  {img:pokeapp, icon:poke_icon,git:'https://github.com/FranciscoMansilla/projectPokeApi.git' , page:'https://project-poke-api-nu.vercel.app/', name:'PokeApp', description:'La aplicacion trae originalmente 40 pokemons de una api externa, toda esta informacion llega en bruto a mi backend en donde filtro solo por los datos que necesito para luego servirlos al front con 4 endpoints. Database Para crear los pokemons tengo dos modelos de base de datos: pokemon y type con una relacion de muchos a muchos.Frontend La app esta realizada con css puro y reactjs. Esta cuenta con 4 rutas, en la principal se puede vizualizar una barra con filtros y busquedas, ademas de una lista de 12 pokemons. '},
   {img:wheater, icon:wheather_icon,git:'https://github.com/FranciscoMansilla/franWeatherApp.git' , page:'https://fran-weather-app.vercel.app/', name:'Wheater', description:'Este es mi primer proyecto, fue realizado a mediados de abril de 2022, es una página web del clima, contiene una barra de búsquedas en donde podemos ingresar el nombre de un país o una ciudad y al apretar enter (o el botón con la lupita) agregara una tarjetita con los datos de la búsqueda, estas se irán acumulando a medida que se siguen haciendo búsquedas para eso tiene un botón para cerrarlas, y por último en las tarjetitas al hacer click sobre el nombre de una ciudad nos llevara a otra vista en donde hay mas datos del clima sobre la locación.'},
 ]
 
@@ -119,7 +119,7 @@ const Carrousel2 = () => {
                     </div>
                   </div>
                 </div>
-                <p className="bg-white opacity-90 w-2/3 text-gray-800">{project.description}</p>
+                <p className=" rounded-lg bg-white bg-opacity-40 w-2/3 text-gray-800">{project.description}</p>
               </div>
             </div>
           ))}
