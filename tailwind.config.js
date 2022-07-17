@@ -17,7 +17,7 @@ module.exports = {
         'theme-1': "url('/src/assets/bgFran.png')",
         'theme-2': "url('/src/assets/bg1.jpg')",
         'theme-3': "url('/src/assets/bg1Dark.png')",
-
+        'gradient1': "url('/src/assets/gif/gradient.gif')"
       },
       fontFamily: {
         'F-Medium': ['F-Medium'],
