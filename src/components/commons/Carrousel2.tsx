@@ -9,7 +9,7 @@ import wheather_icon from '../../assets/captions/icons/weatherIcon.png'
 
 
 const images = [
-  {img:SW, icon:SW_icon,git:'' , page:'https://soundwave-swart.vercel.app/', name:'SoundWave - music streaming', description:''},
+  {img:SW, icon:SW_icon,git:'' , page:'https://soundwave-swart.vercel.app/', name:'SoundWave - music streaming', description:'SoundWave es una plataforma de streaming de música totalmente gratis, en donde sin regístrate puedes buscar y escuchar música de manera gratis, además al registrarte tienes la opción de crear playlist y agregar canciones a favoritos, más la opción de solicitar el upgrade para ser artista, esta solicitud le llega a un administrador de la pagina el cual decide si aceptar o no. '},
   {img:pokeapp, icon:poke_icon,git:'https://github.com/FranciscoMansilla/projectPokeApi.git' , page:'https://project-poke-api-nu.vercel.app/', name:'PokeApp', description:'La aplicacion trae originalmente 40 pokemons de una api externa, toda esta informacion llega en bruto a mi backend en donde filtro solo por los datos que necesito para luego servirlos al front con 4 endpoints. Database Para crear los pokemons tengo dos modelos de base de datos: pokemon y type con una relacion de muchos a muchos.Frontend La app esta realizada con css puro y reactjs. Esta cuenta con 4 rutas, en la principal se puede vizualizar una barra con filtros y busquedas, ademas de una lista de 12 pokemons. '},
   {img:wheater, icon:wheather_icon,git:'https://github.com/FranciscoMansilla/franWeatherApp.git' , page:'https://fran-weather-app.vercel.app/', name:'Wheater', description:'Este es mi primer proyecto, fue realizado a mediados de abril de 2022, es una página web del clima, contiene una barra de búsquedas en donde podemos ingresar el nombre de un país o una ciudad y al apretar enter (o el botón con la lupita) agregara una tarjetita con los datos de la búsqueda, estas se irán acumulando a medida que se siguen haciendo búsquedas para eso tiene un botón para cerrarlas, y por último en las tarjetitas al hacer click sobre el nombre de una ciudad nos llevara a otra vista en donde hay mas datos del clima sobre la locación.'},
 ]
@@ -99,8 +99,8 @@ const Carrousel2 = () => {
             <div className="w-full  h-96 md:h-auto flex-shrink-0 relative" key={project.img} ref={refs[i]}>
               <img src={project.img} className=" w-full object-contain " />
               <div className="
-                ease-in-out duration-200 bg-white bg-opacity-80 h-full w-full flex absolute opacity-0 top-0 left-0 
-                hover:opacity-100 flex-col justify-center items-center  ">
+                ease-in-out duration-200 bg-white md:bg-opacity-80 h-full w-full flex absolute md:opacity-0 top-0 left-0 
+                bg-opacity-100 opacity-100 hover:opacity-100  flex-col justify-center items-center  ">
                 <div className=' flex mb-6'>
                   <img className='mx-3 w-24 h-24 bg-white rounded-lg border-2 border-solid border-gray-600' src={project.icon} alt={project.name} />
                   <div>
@@ -119,7 +119,7 @@ const Carrousel2 = () => {
                     </div>
                   </div>
                 </div>
-                <p className=" rounded-lg bg-white bg-opacity-40 w-2/3 text-gray-800">{project.description}</p>
+                <p className=" rounded-lg bg-white bg-opacity-40 w-2/3 md:text-base text-xs text-gray-800">{project.description}</p>
               </div>
             </div>
           ))}

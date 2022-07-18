@@ -5,7 +5,7 @@ const Card = ()=>{
   <a target="_blank" href="https://www.linkedin.com/in/franciscomansilla/">
     <div className='
       flex  h-20 p-4 bg-white rounded-lg  border border-gray-400 border-b-4 border-solid items-center shadow-md 
-     hover:scale-105 ease-in-out duration-200'>
+      hover:scale-105 ease-in-out duration-200'>
       <img className=' w-16 h-16 rounded-full' src={fran} alt="img" />
       <h6 className=' font-F-Light text-sm mx-4'>Francisco Mansilla</h6>
         <svg className='w-12 h-12' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"  width="24" height="24" focusable="false">
