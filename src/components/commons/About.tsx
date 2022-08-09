@@ -30,8 +30,8 @@ const About = ()=>{
         <h2 className=" mb-4 font-F-Bold text-3xl">My Tech Skills</h2>
         <p className=" w-full md:w-6/12">FullStack Developer specialized in FrontEnd, with more than a thousand hours of internships, I have trained at Henry's Bootcamp, there I was a Teacher Assistant where I was in charge of leading and integrating a group of students through the theory dictated.</p>
       </div>
-      <div>
-        <div className=' flex flex-col items-center md:justify-center md:flex-row '>
+      <div className="flex flex-col items-center">
+        <div className=' w-full flex flex-col items-center md:justify-center md:flex-row '>
           <button onClick={(e:any)=>setTech(e.target.value)} value='front' 
             className=" text-white font-F-Medium shadow-lg w-8/12 md:w-2/12 bg-gradient-to-r to-sky-400 from-pink-300 hover:bg-gradient-to-l hover:to-rose-300 hover:from-pink-400 m-2 py-2 px-4 rounded
             hover:scale-105 ease-in-out duration-200 ">

@@ -3,10 +3,15 @@ import html from '../../assets/icons/html.png'
 import react from '../../assets/icons/react.png'
 import typescript from '../../assets/icons/typescript_logo.png'
 import bootstrap from '../../assets/icons/bootstrap.png'
+import sass from '../../assets/icons/sass.png'
+import xd from '../../assets/icons/xd.png'
+import redux from '../../assets/icons/redux.png'
+
+
 
 const Front = ()=>{
   return(
-    <div className="w-full flex justify-center flex-wrap p-2">
+    <div className="w-full xl:w-8/12 flex justify-center flex-wrap p-2">
       <div className='m-8'>
         <img className='w-28 h-28 mx-2' src={typescript} alt="png" />
         <h6 className=' font-F-Medium text-lg'>Typescript</h6>
@@ -27,9 +32,21 @@ const Front = ()=>{
         
       </div>
       <div className='m-8'>
+        <img className='w-28 h-28 mx-2' src={redux} alt="png" />
+        <h6 className=' font-F-Medium text-lg'>Redux</h6>
+        
+      </div>
+      <div className='m-8'>
         <img className='w-28 h-28 mx-2' src={bootstrap} alt="png" />
         <h6 className=' font-F-Medium text-lg'>Bootstrap</h6>
-
+      </div>
+      <div className='m-8'>
+        <img className='w-28 h-28 mx-2' src={sass} alt="png" />
+        <h6 className=' font-F-Medium text-lg'>Sass</h6>
+      </div>
+      <div className='m-8'>
+        <img className='w-28 h-28 mx-2' src={xd} alt="png" />
+        <h6 className=' font-F-Medium text-lg'>Adobe Xd</h6>
       </div>
       <div className='m-8'>
         <svg className= ' fill-current text-black w-36 h-28 mx-2' viewBox='0 0 50 31'>
