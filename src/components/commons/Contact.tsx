@@ -41,7 +41,7 @@ const Contact = ()=>{
       <a 
         className=" shadow-md w-8/12 md:w-4/12 mt-4 bg-gray-400 hover:bg-gray-300 text-white font-F-Medium py-2 px-4 border-b-4 border-gray-600 hover:border-gray-400 rounded hover:text-black
         hover:scale-105 ease-in-out duration-200"
-        href="https://github.com/FranciscoMansilla"
+        href="https://drive.google.com/file/d/1km7lIca4hvhakbT-Bk9Y7BcUMO-sOPHR/view?usp=sharing"
         target="_blank">
         Download CV 
       </a>
