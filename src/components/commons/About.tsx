@@ -2,6 +2,7 @@ import Front from "./Front"
 import Back from './Back';
 import { useState } from "react";
 import Card from "./Card";
+import Button from './Button';
 
 const About = ()=>{
   const [tech, setTech] = useState('front')
@@ -14,6 +15,16 @@ const About = ()=>{
           <p className="text-base w-full md:w-6/12">Beautifully designed and crafted components and templates built for a better user experience. The perfect starting point for your next project.</p>
           <div className=" my-4 md:my-12 p-4">
             <Card/>
+            <div className='flex w-full justify-around my-1'>
+              <Button 
+                link="asdadas" 
+                label={'GitHub'}
+              />
+              <Button 
+                link="https://gitlab.com/mansillafrancisco1999" 
+                label={'GitLab'}
+              />
+            </div>
           </div>
         </div>
         <div className="w-full md:w-4/12 flex  ">
