@@ -17,7 +17,7 @@ const About = ()=>{
             <Card/>
             <div className='flex w-full justify-around my-1'>
               <Button 
-                link="asdadas" 
+                link="https://github.com/FranciscoMansilla" 
                 label={'GitHub'}
               />
               <Button 
