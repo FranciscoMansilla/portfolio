@@ -10,7 +10,7 @@ const About = ()=>{
     <div id="about" className=' mx-10'>
       <div className=" flex flex-col items-center md:flex-row my-20">
         <div className="p-4 w-full my-2 md:my-10 md:w-7/12 flex flex-col place-items-center">
-          <h2 className=' font-F-SemiBold text-sm'>FrontEnd Developer</h2>
+          <h2 className=' font-F-SemiBold text-sm'>Fullstack Developer</h2>
           <h1 className="font-F-Bold text-6xl m-3">Francisco Mansilla</h1>
           <p className="text-base w-full md:w-6/12">Beautifully designed and crafted components and templates built for a better user experience. The perfect starting point for your next project.</p>
           <div className=" my-4 md:my-12 p-4">
