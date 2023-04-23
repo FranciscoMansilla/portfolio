@@ -9,7 +9,7 @@ const Nav = ()=>{
         <a href="#about">
           <h6 className='  delay-150 font-F-Logo text-3xl  bg-gradient-to-r to-sky-400 from-pink-300 text-transparent bg-clip-text
           hover:bg-gradient-to-r hover:to-violet-400 hover:from-pink-300  
-          '>fran Ui/Ux</h6>
+          '>fran_dev</h6>
         </a>
       </div>
       <div className='hidden w-6/12 h-6 md:flex justify-center align-middle place-items-center'>

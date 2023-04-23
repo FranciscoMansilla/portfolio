@@ -10,7 +10,7 @@ const About = ()=>{
     <div id="about" className=' mx-10'>
       <div className=" flex flex-col items-center md:flex-row my-20">
         <div className="p-4 w-full my-2 md:my-10 md:w-7/12 flex flex-col place-items-center">
-          <h2 className=' font-F-SemiBold text-sm'>Fullstack Developer</h2>
+          <h2 className='font-F-SemiBold text-lg'>Fullstack Developer</h2>
           <h1 className="font-F-Bold text-6xl m-3">Francisco Mansilla</h1>
           <p className="text-base w-full md:w-6/12">Beautifully designed and crafted components and templates built for a better user experience. The perfect starting point for your next project.</p>
           <div className=" my-4 md:my-12 p-4">
@@ -41,8 +41,8 @@ const About = ()=>{
         <h2 className=" mb-4 font-F-Bold text-3xl">My Tech Skills</h2>
         <p className=" w-full md:w-6/12">FullStack Developer specialized in FrontEnd, with more than a thousand hours of internships, I have trained at Henry's Bootcamp, there I was a Teacher Assistant where I was in charge of leading and integrating a group of students through the theory dictated.</p>
       </div>
-      <div className="flex flex-col items-center">
-        <div className=' w-full flex flex-col items-center md:justify-center md:flex-row '>
+      <div className="flex flex-col items-center ">
+        {/* <div className=' w-full flex flex-col items-center md:justify-center md:flex-row '>
           <button onClick={(e:any)=>setTech(e.target.value)} value='front' 
             className=" text-white font-F-Medium shadow-lg w-8/12 md:w-2/12 bg-gradient-to-r to-sky-400 from-pink-300 hover:bg-gradient-to-l hover:to-rose-300 hover:from-pink-400 m-2 py-2 px-4 rounded
             hover:scale-105 ease-in-out duration-200 ">
@@ -53,14 +53,9 @@ const About = ()=>{
             hover:scale-105 ease-in-out duration-200 ">
             Back
           </button>
-        </div>
-        {
-          tech==='front'?
-          <Front/>
-          :
-          <Back/>          
-        }
-        
+        </div> */}
+        <Front />
+        <Back/>                  
       </div>
     </div>
   )
