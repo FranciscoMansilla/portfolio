@@ -6,8 +6,9 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateRows: {
-        'layout': '80px 1.5fr 1fr 1fr 200px',
-        'layout-mobile': '80px 1.5fr .5fr .5fr 150px',
+        'layout': '80px 1.5fr .2fr 1fr 200px',
+        'layout-lg': '80px 1.5fr .2fr 1fr 200px',
+        'layout-mobile': '80px 1.5fr .2fr .5fr 150px',
 
       },
       colors:{

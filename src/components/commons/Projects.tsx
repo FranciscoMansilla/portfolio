@@ -34,7 +34,7 @@ const Projects = ()=>{
     const { onClick } = props;
     return (
       <div
-        className={` m-2 text-white text-2xl bg-black h-10 w-10 rounded-sm opacity-75 flex items-center justify-center absolute top-1/2 left-0 transform -translate-y-1/2 z-10 cursor-pointer`}
+        className={` m-2 text-white text-2xl bg-black h-10 w-10 rounded-sm opacity-50 flex items-center justify-center absolute top-1/2 left-0 transform -translate-y-1/2 z-10 cursor-pointer`}
         onClick={onClick}
       >
         {"<"}
@@ -46,7 +46,7 @@ const Projects = ()=>{
     const { onClick } = props;
     return (
       <div
-        className={`m-2 text-white text-2xl bg-black h-10 w-10 rounded-sm opacity-75 flex items-center justify-center absolute top-1/2 right-0 transform -translate-y-1/2 z-10 cursor-pointer`}
+        className={`m-2 text-white text-2xl bg-black h-10 w-10 rounded-sm opacity-50 flex items-center justify-center absolute top-1/2 right-0 transform -translate-y-1/2 z-10 cursor-pointer`}
         onClick={onClick}
       >
         {">"}
@@ -82,7 +82,7 @@ const Projects = ()=>{
       <div className=" w-full  flex justify-center">
         {/* <Carrousel2/> */}
       <div className="w-full flex justify-center">
-        <Slider className=" w-3/4" {...settings} ref={sliderRef}>
+        <Slider className=" w-full md:w-3/4" {...settings} ref={sliderRef}>
           {images.map((project, i) => (
             <div key={i} className="">
               <div className="w-full flex justify-center">
@@ -91,7 +91,7 @@ const Projects = ()=>{
               <div className="
                 ease-in-out duration-200 bg-white md:bg-opacity-80 h-full w-full flex absolute md:opacity-0 top-0 left-0 
                 bg-opacity-100 opacity-100 hover:opacity-100  flex-col justify-center items-center  ">
-                <div className=' flex mb-6'>
+                <div className='flex flex-col md:flex-row items-center mb-6'>
                   <img className='mx-3 w-24 h-24 bg-white rounded-lg border-2 border-solid border-gray-600' src={project.icon} alt={project.name} />
                   <div>
                     <h1 className=" text-black text-2xl my-2">{project.name}</h1>
@@ -109,7 +109,7 @@ const Projects = ()=>{
                     </div>
                   </div>
                 </div>
-                <p className=" rounded-lg bg-white bg-opacity-40 w-2/3 md:text-base text-xs text-gray-800">{project.description}</p>
+                <p className="hidden sm:inline  rounded-lg bg-white bg-opacity-40 w-2/3 md:text-base text-xs text-gray-800">{project.description}</p>
               </div>
             </div>
               </div>
