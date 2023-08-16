@@ -4,13 +4,13 @@ import sequelize from '../../assets/icons/sequelize.png'
 import postgre from '../../assets/icons/postgre.png'
 import mongo from '../../assets/icons/mongodb.png'
 import js from '../../assets/icons/javascript.png'
-
+import flask from '../../assets/icons/Flask_logo.svg.png'
 
 
 
 const Back = ()=>{
   return(
-    <div className=' w-full flex flex-col items-center mb-20'>
+    <div className=' w-full flex flex-col items-center '>
       <h6 className='  delay-150 font-F-Logo text-3xl  bg-gradient-to-r to-sky-400 from-pink-300 text-transparent bg-clip-text
           hover:bg-gradient-to-r hover:to-violet-400 hover:from-pink-300  
       '>
@@ -18,8 +18,8 @@ const Back = ()=>{
       </h6>
       <div className="w-full xl:w-8/12 flex justify-center flex-wrap p-2 mb-10">
           <div className='m-8'>
-            <img className=' w-20 h-20 mx-2' src={js} alt="png" />
-            <h6 className=' font-F-Medium text-lg'>Javascript</h6>
+            <img className=' w-28 h-20 mx-2' src={flask} alt="png" />
+            <h6 className=' font-F-Medium text-lg'>Flask</h6>
           </div>
           <div className='m-8'>
             <img className=' w-20 h-20 mx-2' src={express} alt="png" />

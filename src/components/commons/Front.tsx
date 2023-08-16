@@ -11,7 +11,7 @@ import redux from '../../assets/icons/redux.png'
 
 const Front = ()=>{
   return(
-    <div className=' w-full flex flex-col items-center'>
+    <div className=' w-full flex flex-col items-center mb-20'>
       <h6 className='  delay-150 font-F-Logo text-3xl  bg-gradient-to-r to-sky-400 from-pink-300 text-transparent bg-clip-text
           hover:bg-gradient-to-r hover:to-violet-400 hover:from-pink-300  
       '>
@@ -19,23 +19,8 @@ const Front = ()=>{
       </h6>
       <div className="w-full xl:w-8/12 flex justify-center flex-wrap p-2">
         <div className='m-8'>
-          <img className='w-20 h-20 mx-2' src={typescript} alt="png" />
-          <h6 className=' font-F-Medium text-lg'>Typescript</h6>
-        </div>
-        <div className='m-8'>
-          <img className='w-20 h-20 mx-2' src={css} alt="png" />
-          <h6 className=' font-F-Medium text-lg'>CSS</h6>
-          
-        </div>
-        <div className='m-8'>
-          <img className='w-20 h-20 mx-2' src={html} alt="png" />
-          <h6 className=' font-F-Medium text-lg'>HTML</h6>
-          
-        </div >
-        <div className='m-8'>
           <img className='w-20 h-20 mx-2' src={react} alt="png" />
           <h6 className=' font-F-Medium text-lg'>ReactJs</h6>
-          
         </div>
         <div className='m-8'>
           <img className='w-20 h-20 mx-2' src={redux} alt="png" />

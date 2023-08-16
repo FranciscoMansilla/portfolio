@@ -1,7 +1,9 @@
 import Contact from "../commons/Contact";
 import Footer from "../commons/Footer";
 import Nav from "../commons/Nav"
+import ProjectModal from "../commons/ProjectModal";
 import Projects from "../commons/Projects";
+import ProjectContainer from "../commons/ProjectsContainer";
 import SideBar from "../commons/SideBar";
 import About from './../commons/About';
 
@@ -14,7 +16,8 @@ const Home = ()=>{
         <Nav/>
       </div>
       <About/>
-      <Projects/>
+      {/* <Projects/> */}
+      <ProjectContainer/>
       <Contact/>
       <Footer/>
       <SideBar />

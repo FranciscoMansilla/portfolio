@@ -3,6 +3,7 @@ import Back from './Back';
 import { useState } from "react";
 import Card from "./Card";
 import Button from './Button';
+import Languaje from "./Languaje";
 
 const About = ()=>{
   const [tech, setTech] = useState('front')
@@ -54,8 +55,9 @@ const About = ()=>{
             Back
           </button>
         </div> */}
-        <Front />
+        <Languaje/>
         <Back/>                  
+        <Front />
       </div>
     </div>
   )
