@@ -13,7 +13,7 @@ const About = ()=>{
         <div className="p-4 w-full my-2 md:my-10 md:w-7/12 flex flex-col place-items-center">
           <h2 className='font-F-SemiBold text-lg'>Fullstack Developer</h2>
           <h1 className="font-F-Bold text-6xl m-3">Francisco Mansilla</h1>
-          <p className="text-base w-full md:w-6/12">Beautifully designed and crafted components and templates built for a better user experience. The perfect starting point for your next project.</p>
+          {/* <p className="text-base w-full md:w-6/12">Beautifully designed and crafted components and templates built for a better user experience. The perfect starting point for your next project.</p> */}
           <div className=" my-4 md:my-12 p-4">
             <Card/>
             <div className='flex w-full justify-around my-1'>
@@ -34,13 +34,13 @@ const About = ()=>{
           </svg>
         </div>
       </div>
-      <div className=" my-10 flex flex-col items-center " >
+      {/* <div className=" my-10 flex flex-col items-center " >
         <h1 className=" w-full md:w-5/12 font-F-Italic text-3xl text-gray-500 m-1">"Creativity comes from a conflict of ideas"</h1>
         <h2 className=" w-11/12 md:w-4/12 text-m font-F-SemiBold flex justify-end">-Donatella Versace</h2>
-      </div>
+      </div> */}
       <div className="mt-32 py-10 w-full flex flex-col items-center">
         <h2 className=" mb-4 font-F-Bold text-3xl">My Tech Skills</h2>
-        <p className=" w-full md:w-6/12">FullStack Developer specialized in FrontEnd, with more than a thousand hours of internships, I have trained at Henry's Bootcamp, there I was a Teacher Assistant where I was in charge of leading and integrating a group of students through the theory dictated.</p>
+        <p className=" w-full md:w-6/12">FullStack Developer, I currently work more as a backend developer, I've been working as a node developer for more than a year with vue, react, react-native, express and adonis.js. Besides flask with python. I consider myself a very adaptable person and with a great ability to solve problems in critical moments. In my work I have had situations where I had to change or create scripts for technologies that I had never used like php or deploy services on servers.</p>
       </div>
       <div className="flex flex-col items-center ">
         {/* <div className=' w-full flex flex-col items-center md:justify-center md:flex-row '>

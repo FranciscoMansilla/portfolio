@@ -42,18 +42,18 @@ const Contact = ()=>{
         rel="noreferrer"
         className=" shadow-md w-8/12 md:w-4/12 mt-4 bg-gray-400 hover:bg-gray-300 text-white font-F-Medium py-2 px-4 border-b-4 border-gray-600 hover:border-gray-400 rounded hover:text-black
         hover:scale-105 ease-in-out duration-200"
-        href="https://drive.google.com/file/d/1km7lIca4hvhakbT-Bk9Y7BcUMO-sOPHR/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Cxmzqjsp0kIhtKumaI_hOhQ-kU5m6sBW/view?usp=drive_link"
         target="_blank">
         Download CV 
       </a>
-      <a 
+      {/* <a 
         rel="noreferrer"
         className=" shadow-md w-8/12 md:w-4/12 mt-4 bg-gray-400 hover:bg-gray-300 text-white font-F-Medium py-2 px-4 border-b-4 border-gray-600 hover:border-gray-400 rounded hover:text-black
         hover:scale-105 ease-in-out duration-200"
         href="https://github.com/FranciscoMansilla"
         target="_blank">
         Via GitHub
-      </a>
+      </a> */}
       <a
         rel="noreferrer"
         className=" shadow-md w-8/12 md:w-4/12 mt-4 bg-blue-500 hover:bg-blue-400 text-white font-F-Medium py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded
