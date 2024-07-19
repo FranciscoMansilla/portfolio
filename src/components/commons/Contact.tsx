@@ -43,7 +43,7 @@ const Contact = ()=>{
         rel="noreferrer"
         className=" shadow-md w-8/12 md:w-4/12 mt-4 bg-gray-400 hover:bg-gray-300 text-white font-F-Medium py-2 px-4 border-b-4 border-gray-600 hover:border-gray-400 rounded hover:text-black
         hover:scale-105 ease-in-out duration-200"
-        href="https://google.com"
+        href="https://drive.google.com/file/d/17FQuqbg59h25TJo2GrlapoCnL-5E_qSv/view?usp=sharing"
         target="_blank">
         Download CV 
       </a>
